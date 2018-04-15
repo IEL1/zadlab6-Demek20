@@ -1,7 +1,7 @@
 package pl.edu.ur.oopl6.zad2;
 
 import java.util.Random;
-
+// program losuje pinkty (x, y i z) i dodaje je do klasy
 public class ObjectCounter {
     public static void main(String[] args){
         Punkt[] p = new Punkt[10];

@@ -23,4 +23,35 @@ public class Figury {
         return 2*Math.PI*r;
     }
     
+    public static double ObwodKwadrat(double a){
+        return 4*a;
+    }
+    
+    public static double PoleKwadratu(double a){
+        return Math.pow(a,2);
+    }
+    
+    public static int ObwodProstokat(int a, int b){
+        return 2*a+2*b;
+    }
+    
+    public static int PoleProstokat(int a, int b){
+        return a*b;
+    }
+    
+    public static double PoleStozek (double H, double r, double l){
+        return Math.PI * Math.pow(r, 2)+(Math.PI*r*l);
+    }
+    public static double ObjetoscStozek (double H, double r){
+        return (Math.PI * Math.pow(r,2)*H)/3;
+    }
+    
+    public static double PoleWalec (double r, double H){
+        return 2*Math.PI* Math.pow(r,2)+2*Math.PI*r*H;
+    }
+    
+    public static double ObjetoscWalec (double r, double H){
+        return Math.PI*Math.pow(r, 2)*H;
+    }
+    
 }
